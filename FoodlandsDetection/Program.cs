@@ -5,16 +5,19 @@ using Google.Apis.Vision.v1.Data;
 using System;
 using System.Collections.Generic;
 
+/*
+ * Detection for Foodlands Logo
+ * 
+ * Documentation was made and uploaded to Bitbucket
+ */
+
 namespace FoodlandsDetection
 {
     public class FoodlandsTextDetection
     {
-        //const string usage = @"E:\Tuan\Documents\Work\Encore\Foodlands\FoodlandsSolution\vision\textDetection\Images\1.png";
-        //const string usage = @"\Images\1.png";
-        //const string usage = @"Usage:TextDetectionSample <path_to_image>";
-        const string usage = @"Usage:FoodlandsDetection <path_to_image>";
 
-        //const string usage = @"TextDetectionSample E:\Tuan\Documents\Work\Encore\Foodlands\FoodlandsSolution\vision\textDetection\test\bin\Debug\data\succulents.jpg";
+        const string usage = @"Usage:FoodlandsDetection <path_to_image>"; 
+
         /// <summary>
         /// Creates an authorized Cloud Vision client service using Application 
         /// Default Credentials.
